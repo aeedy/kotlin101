@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    >
+
+
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#FF0000"
+        android:text="Adithep Chaisan"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txtprovince"
+        android:textSize="20dp"
+        android:textColor="#0000FF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chiang Rai"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:id="@+id/btnClickMe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click ME" />
+
+
+</LinearLayout>
